@@ -1,0 +1,4 @@
+sudo apt update
+sudo apt install ffmpeg -y
+ffmpeg -version
+uv run test_download.py
