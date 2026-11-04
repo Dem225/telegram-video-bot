@@ -27,7 +27,8 @@ DOWNLOAD_DIR = Path("downloads")
 
 # Limite indicative de Telegram Bot API
 MAX_SIZE = 50 * 1024 * 1024
-
+# autorise au maximum deux téléchargements simultanés
+DOWNLOAD_SEMAPHORE = asyncio.Semaphore(2)
 
 # 3. Commande /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -44,7 +45,8 @@ def download_video(url: str):
     DOWNLOAD_DIR.mkdir(exist_ok=True)
 
     options = {
-        "format": "best[ext=mp4]/best",
+        "format": "bestvideo*+bestaudio/best",
+        "merge_output_format": "mp4",
         "outtmpl": str(DOWNLOAD_DIR / "%(id)s.%(ext)s"),
         "noplaylist": True,
         "quiet": True,
