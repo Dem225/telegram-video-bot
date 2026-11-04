@@ -1,0 +1,23 @@
+
+# Variables secrètes
+.env
+.env.*
+
+# Environnement virtuel Python
+.venv/
+venv/
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Fichiers de téléchargement
+downloads/
+
+# Configuration des éditeurs
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
