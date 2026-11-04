@@ -1,3 +1,4 @@
+
 # Variables secrètes
 .env
 .env.*
@@ -20,4 +21,3 @@ downloads/
 # Fichiers système
 .DS_Store
 Thumbs.db
-2026-11-04 10:42:07.092 [info] > git check-ignore -v -z --stdin [1ms]2026-11-04 10:42:07.109 [info] > git show --textconv :.gitignore [8ms]2026-11-04 10:42:07.192 [info] > git ls-files --stage -- .gitignore [83ms]2026-11-04 10:42:07.243 [info] > git cat-file -s 90bce962c97978a3bd5801de59d15cdbcec59c94 [30ms]2026-11-04 10:42:08.281 [info] > git check-ignore -v -z --stdin [1ms]2026-11-04 10:42:08.644 [info] > git check-ignore -v -z --stdin [2ms]2026-11-04 10:42:09.587 [info] > git check-ignore -v -z --stdin [3ms]2026-11-04 10:42:09.790 [info] > git check-ignore -v -z --stdin [2ms]2026-11-04 10:42:10.710 [info] > git check-ignore -v -z --stdin [1ms]2026-11-04 10:42:11.738 [info] > git check-ignore -v -z --stdin [1ms]2026-11-04 10:42:12.167 [info] > git check-ignore -v -z --stdin [2ms]2026-11-04 10:42:12.663 [info] > git status -z -uall [53ms]2026-11-04 10:42:12.714 [info] > git check-ignore -v -z --stdin [1ms]2026-11-04 10:42:12.602 [info] > git config --get commit.template [9ms]2026-11-04 10:42:13.145 [info] > git check-ignore -v -z --stdin [1ms]2026-11-04 10:42:13.636 [info] > git check-ignore -v -z --stdin [2ms]2026-11-04 10:42:13.857 [info] > git check-ignore -v -z --stdin [2ms]2026-11-04 10:42:14.148 [info] > git check-ignore -v -z --stdin [1ms]2026-11-04 10:42:14.824 [info] > git check-ignore -v -z --stdin [1ms]2026-11-04 10:42:15.476 [info] > git check-ignore -v -z --stdin [1ms]2026-11-04 10:42:16.040 [info] > git check-ignore -v -z --stdin [2ms]

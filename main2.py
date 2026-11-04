@@ -10,7 +10,5 @@ TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 async def start(update: update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Salut ! 👋 Bienvenue sur mon bot de téléchargement vidéo."
+        "Salut ! 👋 Bienvenue sur mon bot de téléchargement vidéo. Tu es chez toi "
     )
-
-    
