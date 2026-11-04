@@ -21,3 +21,14 @@ downloads/
 # Fichiers système
 .DS_Store
 Thumbs.db
+# Videos téléchargées
+downloads/
+*.mp4
+*.webm
+*.mkv
+
+# Environnement Python
+.venv/
+.env
+__pycache__/
+*.pyc
