@@ -38,6 +38,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "Envoie-moi un lien vidéo et je vais essayer de la télécharger."
     )
 
+async def salut(update:Update , context:ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(
+        "salut Mr " "\n\n"
+        "BONJOUR FILS KESSSIA?"
+    )
+
 
 # 4. Fonction de téléchargement avec yt-dlp
 def download_video(url: str):
@@ -157,8 +163,8 @@ def main():
     app = Application.builder().token(TOKEN).build()
 
     # Enregistrer les commandes
-    app.add_handler(CommandHandler("start", start))
-
+    app.add_handler(CommandHandler("start", start )),
+    app.add_handler(CommandHandler("salut", salut ))
     # Recevoir les liens
     app.add_handler(
         MessageHandler(
